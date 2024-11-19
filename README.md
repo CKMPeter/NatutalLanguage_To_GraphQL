@@ -1,7 +1,7 @@
 # NatutalLanguage_To_GraphQL
 #####  by Cao Khải Minh
 
-An Small Web Application to Translate From Human Readable Language To GraphQL Query
+An Small Web Application to Translate From Human Readable Language To GraphQL Query Using Gemini
 
 ## Get started:
 

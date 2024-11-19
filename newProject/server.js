@@ -229,7 +229,7 @@ const schema = new GraphQLSchema({
 const schemaDL = printSchema(schema);
 // Make sure to include these imports:
 // import { GoogleGenerativeAI } from "@google/generative-ai";
-const genAI = new GoogleGenerativeAI("AIzaSyBzfhoYNfrYvb6xIO7TORqFkWHiZixuK18");
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 // natural language processor
 async function nlpProcess(userInput) {

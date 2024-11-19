@@ -1,0 +1,16 @@
+INSERT INTO author (id, name) 
+VALUES 
+  ('0236dfc8-e983-448a-92fd-037b672ee2fc', 'J.K. Rowling'),
+  ('bce1f90a-9c3f-4f8a-b6a9-26709c977eaf', 'George Orwell'),
+  ('d7c04a1b-4ad0-4b71-9a61-d321db7b90c2', 'Harper Lee');
+
+INSERT INTO books (name, author_id) 
+VALUES 
+  ('Harry Potter and the Sorcerer\'s Stone', '0236dfc8-e983-448a-92fd-037b672ee2fc'),
+  ('Harry Potter and the Chamber of Secrets', '0236dfc8-e983-448a-92fd-037b672ee2fc'),
+  ('1984', 'bce1f90a-9c3f-4f8a-b6a9-26709c977eaf'),
+  ('Animal Farm', 'bce1f90a-9c3f-4f8a-b6a9-26709c977eaf'),
+  ('To Kill a Mockingbird', 'd7c04a1b-4ad0-4b71-9a61-d321db7b90c2'),
+  ('Go Set a Watchman', 'd7c04a1b-4ad0-4b71-9a61-d321db7b90c2'),
+  ('Harry Potter and the Prisoner of Azkaban', '0236dfc8-e983-448a-92fd-037b672ee2fc'),
+  ('Harry Potter and the Goblet of Fire', '0236dfc8-e983-448a-92fd-037b672ee2fc');
